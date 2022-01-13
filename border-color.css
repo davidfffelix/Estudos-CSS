@@ -4,3 +4,10 @@ p {
     border-color: rgba(255, 128, 0, 0.5);
     border-color: hsla(120, 50, 0, 0.5);
 }
+
+h1 {
+    border-top-color: #0000FF;
+    border-right-color: #0000FF;
+    border-bottom-color: #0000FF;
+    border-left-color: #0000FF;
+}
