@@ -1,3 +1,6 @@
 p {
-    font-style: Normal, italic, oblique, inherit;
+    font-style: normal;
+    font-style: italic;
+    font-style: oblique;
+    font-style: inherit;
 }
