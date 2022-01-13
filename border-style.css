@@ -4,6 +4,9 @@ p {
     border-style: ridge;
     border-style: inset;
     border-style: outset;
+    border-style: dashed;
+    border-style: dotted;
+    border-style: double dashed ridge dotted;
 }
 
 h1 {
