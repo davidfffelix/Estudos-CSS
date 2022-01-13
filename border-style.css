@@ -5,3 +5,10 @@ p {
     border-style: inset;
     border-style: outset;
 }
+
+h1 {
+    border-top-style: solid;
+    border-right-style: solid;
+    border-bottom-style: solid;
+    border-left-style: solid;
+}
