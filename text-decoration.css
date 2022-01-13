@@ -1,3 +1,7 @@
 p {
-    text-decoration: none, underline, overline, line-through, blink*;
+    text-decoration: none;
+    text-decoration: underline;
+    text-decoration: overline;
+    text-decoration: line-through;
+    text-decoration: underline overline;
 }
