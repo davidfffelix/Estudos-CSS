@@ -1,0 +1,6 @@
+p {
+    border-color: blue;
+    border-color: #0F0;
+    border-color: rgba(255, 128, 0, 0.5);
+    border-color: hsla(120, 50, 0, 0.5);
+}
