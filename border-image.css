@@ -1,0 +1,8 @@
+p {
+    border-image: url(sweettexture.jpg) 50 round;
+    border-image: url(sweettexture.jpg) 50% round;
+    border-image: url(sweettexture.jpg) 50 20 round;
+    border-image: url(sweettexture.jpg) 50% 20% round;
+    border-image: line-gradient(#F6B73C, #4D9F0C) 30;
+    border-image: repeating-linear-gradient(#4D9F0C, #9198E5, #4D9F0C 20px) 60;
+}
