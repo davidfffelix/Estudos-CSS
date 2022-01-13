@@ -1,3 +1,8 @@
 p {
-    font-weight: normal, bold, bolder, lighter, 100 to 900, inherit; 
+    font-weight: normal;
+    font-weight: bold;
+    font-weight: bolder;
+    font-weight: lighter;
+    font-weight: inherit;
+    font-weight: 100 to 900;
 }
