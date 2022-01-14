@@ -1,0 +1,5 @@
+p {
+    text-shadow: 2px 2px 2px #0000FF;
+    text-shadow: 0 0 3px #0000FF; /* Neon glow */
+    text-shadow: 0 0 3px #0000FF, 0 0 5px #F00; /* Blue and Red neon glow */
+}
