@@ -6,5 +6,22 @@ p {
 }
 
 h1 {
-    background-image: url("sweettexture.jpg")
+    background-image: url("sweettexture.jpg");
+    background-image: repeat-x;
+    background-position: right top;
+    background-attachment: scroll;
+}
+
+h2 {
+    background-image: url("sweettexture.jpg");
+    background-repeat: repeat-y;
+    background-position: left bottom;
+    background-attachment: local;
+}
+
+h3 {
+    background-image: url("sweettexture.jpg");
+    background-repeat: space;
+    background-position: center center;
+    background-attachment: initial;
 }
