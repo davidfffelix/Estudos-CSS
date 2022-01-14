@@ -6,7 +6,7 @@ p {
     border-style: outset;
     border-style: dashed;
     border-style: dotted;
-    border-style: double dashed ridge dotted;
+    border-style: double dashed ridge dotted; /* Top Right Bottom Left */
 }
 
 h1 {
