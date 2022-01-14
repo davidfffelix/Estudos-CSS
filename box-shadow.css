@@ -1,8 +1,8 @@
  p {
-     box-shadow: 10px 10px 5px #0000FF;
-     box-shadow: -10px -10px 5px #F00;
-     box-shadow: 0 0 10px #0F0;
-     box-shadow: 10px 10px 5px 10px #0000FF;
-     box-shadow: inset 5px 5px #0000FF;
-     box-shadow: inset 0 0 5px 5px #0000FF;
+     box-shadow: 10px 10px 5px #0000FF; /* Offset-X Offset-Y Blur-Radius Color */
+     box-shadow: -10px -10px 5px #F00; /* Offset-X Offset-Y Blur-Radius Color */
+     box-shadow: 0 0 10px #0F0; /* Offset-X Offset-Y Blur Color */
+     box-shadow: 10px 10px 5px 10px #0000FF; /* Offset-X Offset-Y Blur Spread Color */
+     box-shadow: inset 5px 5px #0000FF; /* Inset Offset-X Offset-Y Color */
+     box-shadow: inset 0 0 5px 5px #0000FF; /* Inset Offset-X Offset-Y Blur Spread Color */
  }
