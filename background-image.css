@@ -1,0 +1,10 @@
+p {
+    background-image: url("sweettexture.jpg");
+    background-repeat: no-repeat;
+    background-position: right;
+    background-attachment: fixed;
+}
+
+h1 {
+    background-image: url("sweettexture.jpg")
+}
