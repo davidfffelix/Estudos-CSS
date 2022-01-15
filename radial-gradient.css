@@ -1,0 +1,6 @@
+p {
+    background: radial-gradient(blue, red);
+    background: radial-gradient(#0000FF 30%, #0F0 70%);
+    background: radial-gradient(rgba(255, 128, 0, 0.5), rgba(120, 50, 0, 0.5));
+    background: radial-gradient(hsla(120, 50, 0, 0.5), hsla(120, 100, 25, 0.5));
+}
