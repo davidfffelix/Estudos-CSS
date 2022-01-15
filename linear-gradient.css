@@ -1,0 +1,6 @@
+p{
+    background: linear-gradient(to top, #0000FF, #F00);
+    background: linear-gradient(to left, #0000FF, #0F0);
+    background: linear-gradient(to right, #0000FF, #000000);
+    background: linear-gradient(to bottom, #F00, #0F0);
+}
