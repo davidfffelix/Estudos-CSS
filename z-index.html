@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang="pt-br"></html>
+
+    <head>
+        <title> Z-index </title>
+        <meta charset="UTF-8">    
+    </head>
+
+    <style>
+        main {
+            width:660px;
+            background-color:rgb(255,255,255);
+            font-family:Arial, Helvetica, sans-serif;
+            font-size:14px;
+            box-shadow: 0 0 10px #666;
+            margin:10px auto;
+            padding:10px;
+            position: relative;
+            height: 500px;
+        }
+
+        #principal {
+            background-color:rgb(240,240,240);
+            border:1px dotted #666666;
+            margin-top:20px;
+            position: relative;
+        }
+
+        section {
+            height:100px;
+            width:100px;
+            padding:10px;
+        }
+            
+        .window1 {
+            background-color: #0000FF;
+            position: absolute;
+            top: 10px;
+            left: 10px;
+            z-index: 1;
+        }
+
+        .window2 {
+            background-color: #F00;
+            position: absolute;
+            top: 40px;
+            left: 40px;
+            z-index: 3;
+        }
+
+        .window3 {
+            background-color: #0F0;
+            position: absolute;
+            top: 70px;
+            left: 70px;
+            z-index: 2;
+        }
+
+    </style>
+
+    <body>
+        <main>
+            <h1> Z-index </h1>
+
+                <p>The CSS specification offers us five positionproperties: <strong>static, relative, absolute, fixed, and inherit</strong>.</p>
+                <p>Each property serves a specific purpose. Understanding that purpose is the key to mastering CSS-based layouts.</p>
+            
+            <div id="principal">
+                <section class="window1"> Blue </section>
+                <section class="window2"> Red </section>
+                <section class="window3"> Green </section>
+            </div>  
+        </main>
+    </body>
+</html>
