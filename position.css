@@ -2,4 +2,5 @@ p{
     position: static;
     position: relative;
     position: absolute;
+    position: fixed;
 }
