@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="pt-br">
+
+<head>
+    <title> Clip-Path </title>
+    <meta charset="UTF-8">
+</head>
+
+<style>  
+    .tooltip {
+        background: #00B6FF;
+        color: white;
+        padding: 1em;
+        border-radius: 10px;
+        width: 250px;
+        clip-path: circle(10% at 90% 20%);
+        transition: all .3s ease-in-out;
+        cursor: pointer;
+    }
+
+    .tooltip:hover {
+        clip-path: circle(100%);
+    }
+
+    .tooltip:hover span {
+        opacity: 0;
+    }
+
+    .icon {
+       float: right;
+       font-weight: bold;
+       margin-right: 4%;
+       margin-top: 3%;
+       transition: opacity 0.3s;
+    }
+</style>
+
+<body>
+    <div class="tooltip">
+        <span class="icon"> i </span>
+        <h1> Oi </h1>
+        <p> Criando um Tooltip animado com Clip-path </p>
+    </div>    
+</body>
+
+
+
+
+</html>
