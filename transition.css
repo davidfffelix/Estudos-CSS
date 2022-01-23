@@ -1,0 +1,25 @@
+p {
+    transition: all 2s ease-in-out;
+    transition: width 2s, height 4s;
+}
+
+h1 {
+    transition-property: background-color;
+    transition: all;
+}
+
+h2 {
+    transition-duration: 2s;
+    transition-duration: 5s;
+
+}
+
+h3 {
+    transition-timing-function: linear;
+    transition-timing-function: bezier-cubic;
+}
+
+h4 {
+    transition-delay: 2s;
+    transition-delay: 5s;
+}
