@@ -6,3 +6,8 @@ p.center {
    text-align: center;
    color: #0000FF;
 }
+
+p.center img {
+   float: left;
+   margin-right: 0.5em;
+}
