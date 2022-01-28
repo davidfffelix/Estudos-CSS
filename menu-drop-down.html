@@ -1,0 +1,130 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title> Menu Drop Down </title>
+		<style>
+            body {
+                font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+                font-size:13px;
+                margin:0;padding:0;
+            }
+
+            nav {
+                width: 700px;
+                margin: 0 auto;
+            }
+
+            #menu {
+                text-align: center;
+            }
+
+            #menu ul {
+                margin:0;
+                padding:0;
+                list-style-type: none;
+            }
+
+            #menu ul li {
+                float: left;
+                position: relative;
+            }
+
+            /* Main Horizontal Menu  */
+            #menu ul li a {
+                display: inline-block;
+                text-decoration: none;
+                color: darkgray;
+                background-color: #FFF;
+                padding: 10px;
+                border: 1px solid darkgray;
+                margin-right: -5px;
+                width: 110px;
+            }
+
+            /* Submenu */
+            #menu ul li ul {
+                display: none;
+                position: absolute;
+                padding-top: 5px;
+            }
+
+            /* Submenu items */
+            #menu ul li ul li a {
+                width: 110px;
+                margin-top: -1px;
+            }
+
+            #menu ul li ul li a:hover  {
+                background-color: #DDD;                
+            }
+
+            /* Show Menu */
+            #menu li:hover ul {
+                display: block;
+            }
+
+            /* Background Color of Menu Items  */
+            #menu ul li a:hover {
+                background-color: #DDD;
+            }
+
+        </style>
+
+    </head>
+    
+    <body>
+        <nav id="menu">
+            <ul> 
+
+                <li><a href="#"> Brazil </a> 
+                        <ul> 
+                            <li><a href="#">Recife</a></li> 
+                            <li><a href="#">Sao Paulo</a></li>                         
+                            <li><a href="#">Rio de Janeiro</a></li> 
+                            <li><a href="#">Belo Horizonte</a></li> 
+                            <li><a href="#">Curitiba</a></li> 
+                        </ul> 
+                </li>
+
+                <li><a href="#"> Andorra </a> 
+                        <ul> 
+                            <li><a href="#"> Andorra la Vella </a></li> 
+                            <li><a href="#"> Escaldes-Engordany </a></li> 
+                            <li><a href="#"> Encamp </a></li> 
+                        </ul> 
+                </li> 
+
+                <li><a href="#"> Ukraine </a> 
+                        <ul> 
+                            <li><a href="#"> Kyiv </a></li> 
+                            <li><a href="#"> Kharkiv </a></li> 
+                            <li><a href="#"> Odesa </a></li> 
+                            <li><a href="#"> Dnipro </a></li> 
+                            <li><a href="#"> Donetsk </a></li> 
+                        </ul> 
+                </li>
+
+                <li><a href="#"> Spain </a>         
+                        <ul> 
+                            <li><a href="#"> Madrid </a></li> 
+                            <li><a href="#"> Barcelona </a></li> 
+                            <li><a href="#"> Valencia </a></li> 
+                            <li><a href="#"> Seville </a></li> 
+                        </ul> 
+                </li> 
+
+                <li><a href="#"> Nepal </a>         
+                        <ul> 
+                            <li><a href="#"> Kathmandu </a></li> 
+                            <li><a href="#"> Pokhara </a></li> 
+                            <li><a href="#"> Lalitpur </a></li> 
+
+                        </ul> 
+                </li>             
+
+            </ul>
+        </nav>
+
+    </body>
+</html>
