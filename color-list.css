@@ -1,27 +1,35 @@
 li:first-child {
-    color: #0000FF;
+    background-color: #0000FF;
 }
 
 li:last-child {
-    color: #0F0;
+    background-color: #0F0;
 }
 
 li:nth-child(2) {
-    color: #FF0000;
+    background-color: #FF0000;
 }
 
 li:nth-child(even) {
-    color: #0000FF;
+    background-color: #0000FF;
 }
 
 li:nth-child(odd) {
-    color: #0F0;
+    background-color: #0F0;
 }
 
 li:nth-child(2n) {
-    color: #0000FF;
+    background-color: #0000FF;
 }
 
 li:nth-child(3n) {
-    color: #0F0;
+    background-color: #0F0;
+}
+
+li:nth-child(2n+1) {
+    background-color: #0000FF;
+}
+
+li:nth-child(3n+1) {
+    background-color: #0F0;
 }
