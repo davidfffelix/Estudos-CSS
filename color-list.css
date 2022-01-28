@@ -7,7 +7,7 @@ li:last-child {
 }
 
 li:nth-child(2) {
-    color: color: #FF0000;
+    color: #FF0000;
 }
 
 li:nth-child(even) {
