@@ -1,0 +1,7 @@
+p {
+    flex-direction: initial;
+    flex-direction: row;
+    flex-direction: row-reserve;
+    flex-direction: column;
+    flex-direction: column-reserve;
+}
