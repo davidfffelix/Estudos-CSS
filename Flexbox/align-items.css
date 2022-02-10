@@ -1,0 +1,7 @@
+p {
+    align-items: center;
+    align-items: flex-start;
+    align-items: flex-end;
+    align-items: baseline;
+    align-items: stretch;
+}
