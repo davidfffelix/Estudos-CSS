@@ -1,0 +1,7 @@
+p {
+    flex-flow: row wrap;
+    flex-flow: row-reverse wrap;
+    flex-flow: column wrap-reverse;
+    flex-flow: inherit inherit;
+    flex-flow: initial initial;
+}
