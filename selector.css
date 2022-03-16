@@ -12,7 +12,7 @@ p.center img {
    margin-right: 0.5em;
 }
 
-p.center p:first-of-type:first-letter; {
+p.center p:first-of-type:first-letter {
    float: left;
    line-height: 0.8;
 }
