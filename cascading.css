@@ -1,0 +1,30 @@
+/* Value 0 */
+* {
+    color: #0000FF;
+}
+
+
+/* Value 1*/
+h1 {
+    color: #FF0000;
+}
+
+
+/* Value 10 */
+.title {
+    color: green;
+}
+
+
+/* Value 100 */
+#my-title {
+    color: gray;
+}
+
+
+/* Value 1000 */
+<p style="color: orange;"> lorem </p>
+
+h1.title#my-title {
+    color: purple;
+}
