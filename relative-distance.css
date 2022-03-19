@@ -1,0 +1,28 @@
+/* Relative to the font-size of the element */
+div {
+    font-size: 18px;
+}
+
+p {
+    font-size: 2em;
+}
+
+
+/* Relative to font-size of the root element */
+html {
+    font-size: 25px;
+}
+
+p {
+    font-size: 2rem;
+}
+
+/* Or */
+
+:root {
+    font-size: 25px;
+}
+
+p {
+    font-size: 2rem;
+}
