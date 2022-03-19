@@ -9,8 +9,12 @@ p {
 
 
 /* Relative to font-size of the root element */
-html {
+:root {
     font-size: 25px;
+}
+
+div {
+    font-size: 18px;
 }
 
 p {
@@ -19,8 +23,12 @@ p {
 
 /* Or */
 
-:root {
+html {
     font-size: 25px;
+}
+
+div {
+    font-size: 18px;
 }
 
 p {
